@@ -1,4 +1,4 @@
-module.exports = function main(inputs) {
+module.exports = function printReceipt(inputs) {
     console.log("Debug Info");
 
     var sum = inputs.map(input => input.Price).reduce((prev, next) => prev + next, 0);
