@@ -46,7 +46,7 @@ module.exports = function printReceipt(inputs) {
                          'Name: '+products[1]+', Quantity: '+spriteCount+' bottles, Unit price: '+parseFloat(String(spriteUnitPrice)).toFixed(2)+' (yuan), Subtotal: '+parseFloat(String(spriteSubTotal)).toFixed(2)+' (yuan)\n' +
                          'Name: '+products[2]+', Quantity: '+batteryCount+', Unit price: '+parseFloat(String(batteryUnitPrice)).toFixed(2)+' (yuan), Subtotal: '+parseFloat(String(batterySubTotal)).toFixed(2)+' (yuan)\n' +
                          '----------------------\n' +
-                         'Total: 23.00 (yuan)\n' +
+                         'Total: '+parseFloat(String(sum)).toFixed(2)+' (yuan)\n' +
                          '**********************\n';
 
 
